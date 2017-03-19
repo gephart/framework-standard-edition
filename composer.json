@@ -28,6 +28,5 @@
     "post-create-project-cmd": [
       "@gephart-scripts"
     ]
-
   }
 }
