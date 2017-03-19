@@ -25,10 +25,7 @@
     "gephart-scripts": [
       "Gephart\\Framework\\Composer\\Scripts::install"
     ],
-    "post-install-cmd": [
-      "@gephart-scripts"
-    ],
-    "post-update-cmd": [
+    "post-create-project-cmd": [
       "@gephart-scripts"
     ]
 
