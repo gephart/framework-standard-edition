@@ -1,0 +1,36 @@
+{
+  "name": "gephart/framework-standard-edition",
+  "type": "library",
+  "description": "Gephart Framework Standard Edition",
+  "keywords": [],
+  "homepage": "https://github.com/gephart/framework-standard-edition",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Katuščák",
+      "email": "michal@katuscak.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "gephart/framework": "0.2.*"
+  },
+  "autoload": {
+    "psr-4": { "": "src/" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "scripts": {
+    "gephart-scripts": [
+      "Gephart\\Framework\\Composer\\Scripts::install"
+    ],
+    "post-install-cmd": [
+      "@gephart-scripts"
+    ],
+    "post-update-cmd": [
+      "@gephart-scripts"
+    ]
+
+  }
+}
