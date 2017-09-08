@@ -3,7 +3,8 @@ Gephart Framework Standard Edition
 
 Dependencies
 ---
- - PHP >= 7.0
+ - PHP >= 7.1
+ - gephart/framework >= 0.4
 
 Instalation
 ---
